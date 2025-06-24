@@ -7,7 +7,7 @@ git clone https://github.com/PiggyJerry/VersaMammo-Downstream.git
 cd VersaMammo-Downstream
 ```
 
-## Prepare classification datasets and segmentation\detection datasets
+## Download datasets
 ### Datasets-Links:
 Datasets downloading URL:
     
@@ -29,12 +29,35 @@ Datasets downloading URL:
 | MM | https://data.mendeley.com/datasets/fvjhtskg93/1 | Open Access |
 | NLBS | https://www.frdr-dfdr.ca/repo/dataset/cb5ddb98-ccdf-455c-886c-c9750a8c34c2 | Open Access |
 
+## Prepare classification datasets
 After downloaded datasets above, you have to use the correspoding processing code for it. Remember to change the dataset link in the code!!!
 
-## Processing Dataset Codes and Files Linking:
+### Processing Dataset Codes and Files Linking:
 
 | Dataset Name | Process Dataset Code |
 |--------------|----------------------|
 
+## Prepare segmentation\detection datasets
+After downloaded datasets above, you have to use the correspoding processing code for it. Remember to change the dataset link in the code!!!
+
+### Processing Dataset Codes and Files Linking:
+
+| Dataset Name | Process Dataset Code |
+|--------------|----------------------|
+
+## Prepare VQA datasets
+Please prepare the dataset according to MammoVQA[https://github.com/PiggyJerry/MammoVQA], and put the dataset's json files under /VQA folder.
 
 ## Prepare pre-trained weights
+
+## Training
+For all the downstream tasks, you can use the following command to train the models (please modify the downstream_task to the corresponding task):
+```shell
+bash /downstream_task/bash.sh
+```
+
+## Testing
+For all the downstream tasks, you can use the following command to test the models (please modify the downstream_task to the corresponding task):
+```shell
+bash /downstream_task/eval.sh
+```
