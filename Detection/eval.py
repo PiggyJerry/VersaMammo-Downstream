@@ -237,7 +237,7 @@ if __name__ == "__main__":
 
     hypar = {}
     hypar["mode"] = "eval"
-    hypar['dataset']='CBIS-DDSM-split'
+    hypar['dataset']='CBIS-DDSM'
     hypar['finetune']='lp'
     hypar["model_digit"] = "full" ## indicates "half" or "full" accuracy of float number
     hypar["seed"] = 0
