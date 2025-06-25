@@ -46,7 +46,7 @@ After downloaded datasets above, you have to use the correspoding processing cod
 |--------------|----------------------|
 
 ## Prepare VQA datasets
-Please prepare the dataset according to MammoVQA[https://github.com/PiggyJerry/MammoVQA], and put the dataset's json files under /VQA folder.
+Please prepare the dataset according to [MammoVQA](https://github.com/PiggyJerry/MammoVQA), and put the dataset's json files under /VQA folder.
 
 ## Prepare pre-trained weights
 
