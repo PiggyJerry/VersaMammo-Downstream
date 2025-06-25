@@ -251,7 +251,7 @@ if __name__ == "__main__":
     
     # # # # #MAMA
     hypar["plot_output"]=False
-    hypar["valid_out_dir"] = f"{os.path.dirname(current_dir)}/Segment/results/{hypar['dataset']}/MAMA"##"../DIS5K-Results-test" ## output inferenced segmentation maps into this fold
-    hypar["restore_model"] = f"{os.path.dirname(current_dir)}/Segment/saved_model/{hypar['dataset']}/MAMA.pth"
+    hypar["valid_out_dir"] = f"{os.path.dirname(current_dir)}/Segment/results/{hypar['dataset']}/MAMA (Vitb)"##"../DIS5K-Results-test" ## output inferenced segmentation maps into this fold
+    hypar["restore_model"] = f"{os.path.dirname(current_dir)}/Segment/saved_model/{hypar['dataset']}/MAMA (Vitb).pth"
     hypar["model"]=VisionTransformer(img_size=hypar["input_size"],checkpoint_path=f'{os.path.dirname(current_dir)}/Sotas/mama_embed_pretrained_40k_steps_last.ckpt',ours=None)
     main(hypar=hypar)
