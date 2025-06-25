@@ -296,8 +296,7 @@ if __name__ == "__main__":
         },
         'CBIS-DDSM-finding': {
             'Finding':{'mass':0,'calcification':1},
-            'Pathology': {'Malignant': 0, 'Benign': 1},
-            'Subtlety': {'Level 1': 0, 'Level 2': 1, 'Level 3': 2, 'Level 4': 3, 'Level 5': 4}
+            'Pathology': {'Malignant': 0, 'Benign': 1}
         },
         'CMMD': {
             'Pathology': {'Malignant': 0, 'Benign': 1},
