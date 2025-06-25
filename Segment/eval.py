@@ -179,7 +179,7 @@ def main(hypar): # model: "train", "test"
 if __name__ == "__main__":
     hypar = {}
     hypar["mode"] = "eval"
-    hypar['dataset']='private-split'
+    hypar['dataset']='CBIS-DDSM'
     hypar["model_digit"] = "full" ## indicates "half" or "full" accuracy of float number
     hypar['finetune']='lp'
     hypar["seed"] = 0
