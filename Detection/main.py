@@ -352,7 +352,7 @@ if __name__ == "__main__":
 
     hypar = {}
     hypar["mode"] = "train"
-    hypar['dataset']='VinDr-Mammo-split'
+    hypar['dataset']='VinDr-Mammo'
     hypar['finetune']='lp'
     hypar["model_digit"] = "full" ## indicates "half" or "full" accuracy of float number
     hypar["seed"] = 0
