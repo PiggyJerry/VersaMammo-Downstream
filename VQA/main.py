@@ -359,7 +359,7 @@ if __name__ == "__main__":
     main(hypar=hypar)
     
     # # #MaMA
-    hypar['model_name']="MAMA"
+    hypar['model_name']="MAMA (Vitb)"
     hypar["model"]=MultiTaskModel('mama', hypar['label_mappings'],checkpoint_path=f'{os.path.dirname(current_dir)}/Sotas/mama_embed_pretrained_40k_steps_last.ckpt',ours=None,finetune=hypar['finetune'])
     main(hypar=hypar)
     
