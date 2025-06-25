@@ -380,6 +380,6 @@ if __name__ == "__main__":
         preprocess(hypar['input_path']+'/Test',hypar['val_datapath'],hypar["input_size"])
     
     # # # #MAMA
-    hypar["restore_model"]=hypar['model_path']+"MAMA"+".pth"
+    hypar["restore_model"]=hypar['model_path']+"MAMA (Vitb)"+".pth"
     hypar["model"]=MultiTaskModel('MAMA', hypar['label_mappings'],checkpoint_path=f'{os.path.dirname(current_dir)}/Sotas/mama_embed_pretrained_40k_steps_last.ckpt',ours=None)
     main(hypar=hypar)
