@@ -324,8 +324,8 @@ if __name__ == "__main__":
     
     # # #MAMA
     hypar["plot_output"]=False
-    hypar["valid_out_dir"] = f"{os.path.dirname(current_dir)}/Detection/results/{hypar['dataset']}/MAMA"##"../DIS5K-Results-test" ## output inferenced segmentation maps into this fold
-    hypar["valid_out_bbox_dir"] = f"{os.path.dirname(current_dir)}/Detection/bbox_results/{hypar['dataset']}/MAMA"
-    hypar["restore_model"] = f"{os.path.dirname(current_dir)}/Detection/saved_model/{hypar['dataset']}/MAMA.pth"
+    hypar["valid_out_dir"] = f"{os.path.dirname(current_dir)}/Detection/results/{hypar['dataset']}/MAMA (Vitb)"##"../DIS5K-Results-test" ## output inferenced segmentation maps into this fold
+    hypar["valid_out_bbox_dir"] = f"{os.path.dirname(current_dir)}/Detection/bbox_results/{hypar['dataset']}/MAMA (Vitb)"
+    hypar["restore_model"] = f"{os.path.dirname(current_dir)}/Detection/saved_model/{hypar['dataset']}/MAMA (Vitb).pth"
     hypar["model"]=get_model(backbone_name="vit-b", checkpoint_path=f'{os.path.dirname(current_dir)}/Sotas/mama_embed_pretrained_40k_steps_last.ckpt',pretrained=False,ours=None)
     main(hypar=hypar)
