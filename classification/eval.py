@@ -261,10 +261,10 @@ if __name__ == "__main__":
         },
         'CBIS-DDSM-finding': {
             'Finding':{'mass':0,'calcification':1},
-            'Pathology': {'Malignant': 0, 'Benign': 1}
+            'Pathology': {'Benign': 0, 'Malignant': 1}
         },
         'CMMD': {
-            'Pathology': {'Malignant': 0, 'Benign': 1},
+            'Pathology': {'Benign': 0, 'Malignant': 1},
             'Subtype': {'HER2-enriched':0,'LuminalA':1,'LuminalB':2,'triplenegative':3}
         },
         'INbreast': {
@@ -292,7 +292,7 @@ if __name__ == "__main__":
                 'Spiculated masses':4,
                 'Miscellaneous':5
             },
-            'Pathology': {'Malignant': 0, 'Benign': 1}
+            'Pathology': {'Benign': 0, 'Malignant': 1}
         },
         'CSAW-M': {
             'Masking': {'1': 0, '2': 1, '3': 2, '4': 3, '5': 4, '6': 5, '7': 6, '8': 7}
@@ -307,10 +307,10 @@ if __name__ == "__main__":
             'Pathology':{'Benign':0,'Malignant':1}
         },
         'MM': {
-            'Pathology': {'Cancer': 0, 'Non-Cancer': 1}
+            'Pathology': {'Benign': 0, 'Malignant': 1}
         },
         'NLBS': {
-            'Pathology': {'Cancer': 0, 'Non-Cancer': 1}
+            'Pathology': {'Benign': 0, 'Malignant': 1}
         },
         'DBT': {
             'Pathology': {'Benign': 0, 'Malignant': 1}
