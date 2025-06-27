@@ -36,7 +36,20 @@ After downloaded datasets above, you have to use the correspoding processing cod
 
 | Dataset Name | Process Dataset Code |
 |--------------|----------------------|
-| BMCD | https://zenodo.org/records/5036062 |
+| BMCD | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/BMCD.ipynb |
+| CBIS-DDSM | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/CBIS-DDSM.ipynb |
+| CDD-CESM | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/CDD-CESM.ipynb |
+| CMMD | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/CMMD.ipynb |
+| CSAW-M | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/CSAW-M.ipynb |
+| DBT | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/DBT.ipynb |
+| DMID | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/DMID.ipynb |
+| INbreast | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/INbreast.ipynb |
+| KAU-BCMD | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/KAU-BCMD.ipynb |
+| LAMIS | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/LAMIS.ipynb |
+| MIAS | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/MIAS.ipynb |
+| MM | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/MM.ipynb |
+| NLBS | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/NLBS.ipynb |
+| VinDr-Mammo | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/VinDr-Mammo.ipynb |
 
 ## Prepare segmentation\detection datasets
 After downloaded datasets above, you have to use the correspoding processing code for it. Remember to change the dataset link in the code!!!
@@ -45,6 +58,9 @@ After downloaded datasets above, you have to use the correspoding processing cod
 
 | Dataset Name | Process Dataset Code |
 |--------------|----------------------|
+| CBIS-DDSM | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/CBIS-DDSM.ipynb |
+| INbreast | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/INbreast.ipynb |
+| VinDr-Mammo | https://github.com/PiggyJerry/VersaMammo-Downstream/blob/main/preprocess/VinDr-Mammo.ipynb |
 
 ## Prepare VQA datasets
 Please prepare the dataset according to [MammoVQA](https://github.com/PiggyJerry/MammoVQA), and put the dataset's json files under /VQA folder.
