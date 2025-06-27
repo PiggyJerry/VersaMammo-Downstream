@@ -36,6 +36,7 @@ After downloaded datasets above, you have to use the correspoding processing cod
 
 | Dataset Name | Process Dataset Code |
 |--------------|----------------------|
+| BMCD | https://zenodo.org/records/5036062 |
 
 ## Prepare segmentation\detection datasets
 After downloaded datasets above, you have to use the correspoding processing code for it. Remember to change the dataset link in the code!!!
